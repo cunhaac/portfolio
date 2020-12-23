@@ -1,0 +1,145 @@
+body {
+    background-color: #171b1b;
+    margin: 0 auto;
+    color: #a6a6a6;
+    padding: 0;
+    font-family: monospace;
+    text-align: center;
+    width: 800px;
+    font-size: 14px;
+}
+
+h1 { color: #009bca; }
+h2 { color:  #009bca; }
+h3 { color: #009bca; }
+h4 { color:  #009bca; }
+h5 { color:  #009bca; }
+
+.container {
+   text-align: center;
+ }
+
+.container pre {
+  display: inline-block;
+  text-align: left;
+ }
+
+footer {
+    color:  #009bca;
+    font-weight: bold;
+    width: 60%;
+    border-top: dashed 1px #a6a6a6;
+    margin: 20px auto 15px;
+    padding-top: 10px;
+}
+header {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+header p {
+    text-align: left;
+    margin: 0;
+    color: #a6a6a6;
+}
+a {
+    text-decoration: none;
+    color:  #009bca;
+}
+
+
+#data {
+ color: #a6a6a6;
+ display: inline;
+}
+
+
+img.center {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 98%;
+   height: 100%;
+}
+
+main {
+    text-align: left;
+}
+pre {
+    border: 1px dashed #a6a6a6;
+    padding: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow:auto;
+    background-color: #222626;
+}
+
+#banner {
+  white-space: pre;
+  color: #cccccc;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu {
+    border: 1px dashed #a6a6a6;
+    border-radius: 3px;
+}
+.menu ul li {
+    display: inline;
+    margin-left: 5px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color:  #009bca;
+    text-align: center;
+}
+.menu ul li a:hover {
+    padding: 2px;
+    border-bottom: 2px solid  #009bca;
+}
+
+img {
+    width: 70%;
+    margin-left: 10%;
+    border: 1px dashed #a6a6a6;
+    padding: 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px dashed #a6a6a6;
+}
+
+.comment {
+    color: rgba(255,255,255,0.3);
+}
+.reserved {
+    color: #b3b3cc;
+}
+.string {
+    color:  #009bca;
+}
+.function {
+    color: #a6a6a6;
+}
+.number {
+    color: rgba(255,255,255,0.7);
+}
+
+#p1 {
+  background-color: rgba(99, 107, 140, 0.21);
+  text-decoration: none;
+  width: 60%;
+
+}       
