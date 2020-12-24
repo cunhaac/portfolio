@@ -10,10 +10,10 @@ Happy Hacking!
 </header>
 <div class="menu">
 	<ul>
-		<li style="background-color: #014d50;"><a href="index.html">Root</a></li>
-		<li><a href="#">Dev</a></li>
-		<li><a href="#">Network</a></li>
-		<li><a href="../templates/whoami.html">Whoami</a></li>
-		<li><a href="#">Ping me!</a></li>		
+		<li style="background-color: #014d50;"><a href="{% url 'root' %}">Root</a></li>
+		<li><a href="{% url 'dev' %}">Dev</a></li>
+		<li><a href="{% url 'network' %}">Network</a></li>
+		<li><a href="{% url 'whoami' %}">Whoami</a></li>
+		<li><a href="{% url 'ping_me' %}">Ping me!</a></li>		
 	</ul>
 </div>

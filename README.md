@@ -1,2 +1,2 @@
 #### Preview
-![layout](/docs/layout.png)
+![preview](/docs/preview.png)
