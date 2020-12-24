@@ -102,7 +102,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.vscode
 .env
 .venv
 env/
@@ -131,3 +130,6 @@ dmypy.json
 
 # Configurations
 configs/*.env
+
+# vscode
+/.vscode
