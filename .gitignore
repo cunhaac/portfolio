@@ -102,6 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.vscode
 .env
 .venv
 env/
@@ -129,5 +130,4 @@ dmypy.json
 .pyre/
 
 # Configurations
-
 configs/*.env
